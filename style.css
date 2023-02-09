@@ -14,11 +14,12 @@ body {
     box-shadow: 0 0 5px #c3c3c3;
 }
 
-nav ul {
+#navbar {
+    background-color: white;
+    overflow: hidden;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-
-
 }
 
 ul {
@@ -28,14 +29,13 @@ ul {
     height: 24px;
     padding-top: 5px;
     padding-bottom: 5px;
-
-
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 li {
     display: inline-block;
-    float: left:
-
+    float: left;
 }
 
 li a {
